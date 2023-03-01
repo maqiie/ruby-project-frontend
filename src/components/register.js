@@ -94,4 +94,10 @@ function SignUp() {
           >
             Sign in Instead
           </button>
-       
+        </div>
+      </form>
+    </div>
+  );
+}
+
+export default SignUp;
