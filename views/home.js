@@ -6,3 +6,4 @@ function Home(params) {
     )
     
 }
+export default App
