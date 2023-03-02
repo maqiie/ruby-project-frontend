@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button } from 'react-bootstrap';
 import Logo from '../assets/logo.png';
 
 class Home extends Component {
@@ -29,22 +28,19 @@ class Home extends Component {
           <img className="h-32 mb-8" id='home-logo' src={Logo} alt="Logo" />
         </div>
         <div className="flex flex-col items-center">
-          <Button
+          <button
             onClick={this.logInClick}
-            variant="outline-secondary"
-            size="lg"
-            className="mb-4"
+            className="border border-gray-400 text-gray-700 font-bold py-2 px-4 mb-4 rounded-lg transition duration-500 ease-in-out hover:bg-gray-400 hover:text-white"
           >
             Log in
-          </Button>
+          </button>
           <div className="mb-4 text-gray-600 font-bold">or</div>
-          <Button
+          <button
             onClick={this.signUpClick}
-            variant="outline-secondary"
-            size="lg"
+            className="border border-gray-400 text-gray-700 font-bold py-2 px-4 rounded-lg transition duration-500 ease-in-out hover:bg-gray-400 hover:text-white"
           >
             Sign Up
-          </Button>
+          </button>
         </div>
       </div>
     );

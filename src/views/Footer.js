@@ -22,7 +22,7 @@ function Footer(){
             <a href="#">Faq</a>&nbsp;
             <a href="#">Contact</a>
         </p> */}
-        <p>&copy; &nbsp; Group 8 </p>
+        <p>&copy;&nbsp;MarkPaul </p>
     </div>
 </footer>
         </div>

@@ -1,16 +1,19 @@
-import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import React from "react";
 import './App.css';
-import Home from "./views/Home";
+
 import SignUp from "./components/register";
 import Footer from "./views/Footer";
+import LandingPage from "./components/landingPage";
+
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      
       <BrowserRouter>
         <Routes>
+        <Route exact path="/" component={LandingPage} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
       </BrowserRouter>
