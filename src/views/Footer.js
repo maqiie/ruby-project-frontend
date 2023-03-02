@@ -6,7 +6,7 @@ function Footer(){
     <div className="footer-right">
     </div>
     <div className="footer-right" id="rightIcons">
-        <span> <a href="https://github.com/maqiie" target="_blank" rel="noreferrer"><i className="fa fa-github"></i></a>
+        <span> <a href="https://github.com/maqiie" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
         <h6>MarkPaul</h6>
         </span>
    </div>
